@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana;
+    background-color: #f2f2f2;
+}
+form {
+    background-color: rgb(178, 225, 254);
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: none;
+    color: lightsteelblue;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
